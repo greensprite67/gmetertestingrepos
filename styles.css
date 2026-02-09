@@ -2,8 +2,8 @@
     background-color: hsl(0, 0%, 0%);
     font-size: 1.5rem;
     font-weight: bold;
-    width: 100vw;
-    height: 2rem;
+    width: 10000vw;
+    height: 2vw;
     text-align: center;
     margin: 0;
 }
@@ -67,7 +67,8 @@
     margin-top: 1rem;
     margin-left: 12rem;
     margin-right: 4rem;
-    width: fit-content;
+    width: 20rem;
+    height: fit-content;
     background-color: rgb(255, 255, 255);
 }
 
