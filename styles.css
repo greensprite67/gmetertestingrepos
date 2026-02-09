@@ -1,0 +1,127 @@
+#gtitle {
+    background-color: hsl(0, 0%, 0%);
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 100vw;
+    height: 2rem;
+    text-align: center;
+    margin: 0;
+}
+
+#tabbtn {
+    background-color: hsl(0, 0%, 100%);
+    width: 5rem;
+    height: 5rem;
+    background-image: url(tlines.png);
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+}
+
+#tabdiv {
+    position: absolute;
+    width: 10rem;
+    height: 25rem;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    display: none;
+}
+#tabdivtitle {
+    margin-top: 5rem;
+    position: absolute;
+}
+.btndivtitle {
+    margin-top: 5rem;
+    position: absolute;
+    display: none;
+}
+
+.tabdivbtn {
+    width: 8rem;
+    height: 2rem;
+    margin: 1rem;
+    background-color: hsl(218, 100%, 50%);
+    color: hsl(0, 0%, 100%);
+}
+
+#togbtn {
+    width: 8rem;
+    height: 2rem;
+    margin: 1rem;
+    font-weight: bold;
+    background-color: black;
+    color: darkgray;
+}
+
+#container {
+    position: absolute;
+}
+#rollbtn {
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#gaydiv {
+    margin-top: 1rem;
+    margin-left: 12rem;
+    margin-right: 4rem;
+    width: fit-content;
+    background-color: rgb(255, 255, 255);
+}
+
+#tex {
+    font-size: 2rem;
+    font-weight: bold;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    background-clip: text;
+    color: transparent;
+}
+
+#skebobbtn {
+    width: 8rem;
+    height: 2rem;
+    margin: 1rem;
+    font-weight: bold;
+    background-image: url(skebob.jpg);
+    background-size: contain;
+    color: white;
+}
+
+#loadingdiv {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(0, 0%, 100%);
+    z-index: 10000;
+    display: block;
+    text-align: center;
+}
+
+#skiploadbtn {
+    display: none;
+    width: 8rem;
+    height: 2rem;
+    font-weight: bold;
+    background-color: hsl(218, 100%, 50%);
+    color: hsl(0, 0%, 100%);
+    justify-self: center;
+    align-self: center;
+}
+
+#welcom {
+    font-size: 2rem;
+    font-weight: bold;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    background-clip: text;
+    color: transparent;
+}
+body {
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 100%);
+    margin: 0;
+    padding: 0;
+}
+
