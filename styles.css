@@ -3,7 +3,7 @@
     font-size: 1.5rem;
     font-weight: bold;
     width: 10000vw;
-    height: 2vw;
+    height: 3rem;
     text-align: center;
     margin: 0;
 }
@@ -67,7 +67,7 @@
     margin-top: 1rem;
     margin-left: 12rem;
     margin-right: 4rem;
-    width: 20rem;
+    width: 40vw;
     height: fit-content;
     background-color: rgb(255, 255, 255);
 }
